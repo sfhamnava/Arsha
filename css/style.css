@@ -298,7 +298,7 @@ section .img img{
       font-size: 20px;
   }
   section.row .d-flex .btn-get-started:hover{
-      background: #148bdb;
+      background: #2384c5;
       transition: 0.1s;
   }
   section .row .glightbox{
@@ -333,6 +333,7 @@ section .img img{
   padding: 12px 0;
   text-align: center;
   display: flex;
+  background: rgb(245, 243, 243);
 }
  .clients img{
    max-width: 35%;
@@ -344,4 +345,78 @@ section .img img{
  .clients img:hover{
    filter: none;
    transform: scale(1.1);
+ }
+
+ /*  End clients  */
+
+ /*  About Us start */
+
+
+
+ .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+  text-align: center;
+
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.about .row{
+  margin-top: 50px;
+}
+ .about .row .col-lg-6{
+   color: rgb(70, 69, 69);
+
+ }
+ .about .row .col-lg-6 ul{
+   margin-left: -25px;
+   line-height: 35px;
+ }
+ .about .row .col-lg-6 ul li{
+   list-style: none;
+ }
+ .about .row .col-lg-6 ul li i{
+   margin-right: 10px;
+   color:#31a9e1;
+ }
+ .about .row  .pt-4 {
+   line-height: 30px;
+ }
+ .about .row  .pt-4 a{
+   text-decoration: none;
+   border: 2px solid #31a9e1;
+   padding: 10px 30px;
+   border-radius: 5px;
+   color: #31a9e1;
+ }
+ .about .row  .pt-4 a:hover{
+   color: #fff;
+   background: #31a9e1;
+   transition: ease-in 0.3s;
  }
