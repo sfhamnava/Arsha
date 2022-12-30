@@ -362,7 +362,7 @@ section .img img{
   position: relative;
   color: #37517e;
   text-align: center;
-
+  margin-top: 50px;
 }
 
 .section-title h2::before {
@@ -397,6 +397,7 @@ section .img img{
  .about .row .col-lg-6 ul{
    margin-left: -25px;
    line-height: 35px;
+   margin-bottom: 100px;
  }
  .about .row .col-lg-6 ul li{
    list-style: none;
@@ -419,4 +420,62 @@ section .img img{
    color: #fff;
    background: #31a9e1;
    transition: ease-in 0.3s;
+ }
+/* -----  End About-Us  ----- */
+
+/* =======  start why-us  ======== */
+
+
+.container-fluid{
+  background: rgb(243, 244, 245);
+  padding-top: 110px;
+}
+
+ .why-us .row .col-lg-7{
+   margin-left: 100px;
+   width: 42%;
+ }
+ .why-us .row .col-lg-7 h3{
+   font-size: 30px;
+   color: #37517e;
+   line-height: 40px;
+   margin: 0 0 10px ;
+ }
+
+ .why-us .row .col-lg-7 h3 strong{
+   font-weight: bold;
+   font-size: 35px;
+ }
+ .why-us .row .col-lg-7 p{
+   color: rgb(99, 99, 99);
+ }
+
+ .why-us .row .col-lg-7 .accordion-list{
+   margin-top: 20px;
+   margin-bottom: 100px;
+ }
+ .why-us .row .col-lg-7 .accordion-item{
+   padding: 5px;
+   margin-bottom: 15px;
+   border: none;
+   outline: none;
+ }
+ .why-us .row .col-lg-7 .accordion-item button{
+  color: rgb(99, 99, 99);
+ }
+ .why-us .row .col-lg-7 .accordion-item button:hover{
+color: #31a9e1;
+transition: ease-in 0.2s;
+ }
+ .why-us .row .col-lg-7 .accordion-item button span{
+   margin: 0 10px;
+   color: #31a9e1;
+ }
+
+ .why-us .row .col-lg-7 .accordion-item .accordion-body{
+  color: rgb(99, 99, 99);
+ }
+
+ .why-us .row .col-lg-5 {
+   width: 400px;
  }
